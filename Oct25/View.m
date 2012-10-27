@@ -31,9 +31,6 @@
 		CGFloat w = self.bounds.size.width;
 		CGFloat h = self.bounds.size.height;
 		self.bounds = CGRectMake(-w / 2, -h / 2, w, h);
-
-	
-	
 	}
     return self;
 }
@@ -59,9 +56,6 @@
 						error: &error
 						];
 	
-	if (string == nil) {
-		string = [error localizedDescription];
-	}
 
    
 	NSString *string_a = @"χαιρετισμός";
@@ -79,15 +73,13 @@
     [string drawAtPoint: point withFont: font];
 	
 	CGPoint point_a = CGPointMake(0.0, 50.0);
-    [string_a drawAtPoint: point_a withFont: font];
+    [string_a drawAtPoint: point_a withFont: font
+	];
 	
-	
-
+	if (string == nil) {
+		string = [error localizedDescription];
+	}
 
 }
-
-
-
-
 
 @end

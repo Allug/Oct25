@@ -16,6 +16,9 @@
 		F284C0121638D62F006EF88E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F284C0111638D62F006EF88E /* Default.png */; };
 		F284C0141638D62F006EF88E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F284C0131638D62F006EF88E /* Default@2x.png */; };
 		F284C0161638D62F006EF88E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F284C0151638D62F006EF88E /* Default-568h@2x.png */; };
+		F284C0231638D9CE006EF88E /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = F284C0221638D9CE006EF88E /* View.m */; };
+		F284C041163B5722006EF88E /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = F284C040163B5722006EF88E /* heart.png */; };
+		F284C044163B5754006EF88E /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = F284C043163B5754006EF88E /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,10 @@
 		F284C0111638D62F006EF88E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F284C0131638D62F006EF88E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F284C0151638D62F006EF88E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F284C0211638D9BF006EF88E /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		F284C0221638D9CE006EF88E /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		F284C040163B5722006EF88E /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		F284C043163B5754006EF88E /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,7 @@
 		F284BFF01638D62F006EF88E = {
 			isa = PBXGroup;
 			children = (
+				F284C043163B5754006EF88E /* heart.png */,
 				F284C0051638D62F006EF88E /* Oct25 */,
 				F284BFFE1638D62F006EF88E /* Frameworks */,
 				F284BFFC1638D62F006EF88E /* Products */,
@@ -80,6 +88,8 @@
 			children = (
 				F284C00E1638D62F006EF88E /* Oct25AppDelegate.h */,
 				F284C00F1638D62F006EF88E /* Oct25AppDelegate.m */,
+				F284C0211638D9BF006EF88E /* View.h */,
+				F284C0221638D9CE006EF88E /* View.m */,
 				F284C0061638D62F006EF88E /* Supporting Files */,
 			);
 			path = Oct25;
@@ -88,6 +98,7 @@
 		F284C0061638D62F006EF88E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F284C040163B5722006EF88E /* heart.png */,
 				F284C0071638D62F006EF88E /* Oct25-Info.plist */,
 				F284C0081638D62F006EF88E /* InfoPlist.strings */,
 				F284C00B1638D62F006EF88E /* main.m */,
@@ -155,6 +166,8 @@
 				F284C0121638D62F006EF88E /* Default.png in Resources */,
 				F284C0141638D62F006EF88E /* Default@2x.png in Resources */,
 				F284C0161638D62F006EF88E /* Default-568h@2x.png in Resources */,
+				F284C041163B5722006EF88E /* heart.png in Resources */,
+				F284C044163B5754006EF88E /* heart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 			files = (
 				F284C00C1638D62F006EF88E /* main.m in Sources */,
 				F284C0101638D62F006EF88E /* Oct25AppDelegate.m in Sources */,
+				F284C0231638D9CE006EF88E /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +289,7 @@
 				F284C01B1638D62F006EF88E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
